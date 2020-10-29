@@ -8,7 +8,7 @@ Cite as:
 
 The provided code is written in python and C++. For python, it assumes that you have the numpy and scipy packages installed. For C++ it assumes you have the eigen module installed.
 
-python = 2.7.16; numpy=1.16.6; scipy0.13.0b1;
+python==2.7.16; numpy==1.16.6; scipy==0.13.0b1;
 
 [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) = 3.3.90
 (make sure Eigen is in your path variable)

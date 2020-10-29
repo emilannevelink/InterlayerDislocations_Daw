@@ -4,7 +4,7 @@ import numpy.distutils.misc_util
 #21 bring displacement back to first quadrant
 
 setup(
-    ext_modules=[Extension("_IDDAWt0", ["_cIDDAWt0.cpp", "IDDAWt0.cpp"])],
+    ext_modules=[Extension("_IDDAW", ["_cIDDAW.cpp", "IDDAW.cpp"])],
     include_dirs=numpy.distutils.misc_util.get_numpy_include_dirs(),
 )
 

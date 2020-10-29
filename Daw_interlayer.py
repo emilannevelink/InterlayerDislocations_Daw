@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d
 
 
-import _IDDAWt0 as cfiles
+import _IDDAW as cfiles
 
 """
 Dislocationinformation: list of dislocations
@@ -519,7 +519,7 @@ def Distortion_2d(disl='2d90'):
 
 if __name__ == "__main__":
 
-	#energy  = energy_1d()
-	Distortion_2d()
+	print(energy_1d().sum())
+	#Distortion_2d()
 	#save2ddisplacements()
 	#plot2dfromsave()

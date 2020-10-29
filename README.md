@@ -11,8 +11,7 @@ The provided code is written in python and C++. For python, it assumes that you 
 python = 2.7.16; numpy=1.16.6; scipy0.13.0b1;
 
 [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) = 3.3.90
-
-    make sure Eigen is in your path variable
+(make sure Eigen is in your path variable)
 
 # Installation
 

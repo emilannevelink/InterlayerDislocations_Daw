@@ -16,7 +16,7 @@ python setup_ID_DAW.py build_ext --inplace
 
 Note this is for python 2.7 . You may need to specify a specific compiler flag as well (e.g. CC=g++).
 
-This will give you a module named '_IDDAW'
+This will give you a module named '_IDDAW' that is referenced from python.
 
 # Testing
 

@@ -29,5 +29,5 @@ A few sample calculations are given in the 'Daw_interlayer.py' file.
 
 # Usage
 
-The code works by inputing the material parameters (C, A), supercell dimensions (a1, a2, a3), and the dislocation geometry (array of numpy arrays).
+The code works by inputing the material parameters (C, A), supercell dimensions (a1, a2, a3), and the dislocation geometry (list of numpy arrays).
 A dislocation is specified as a 3x3 numpy array [location,line_direction,burgers_vector].

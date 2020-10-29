@@ -8,11 +8,17 @@ Cite as:
 
 The provided code is written in python and C++. For python, it assumes that you have the numpy and scipy packages installed. For C++ it assumes you have the eigen module installed.
 
+python = 2.7.16; numpy=1.16.6; scipy0.13.0b1;
+
+[Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) = 3.3.90
+
+    make sure Eigen is in your path variable
+
 # Installation
 
 Compile the C++ with the following command.
 
-python setup_ID_DAW.py build_ext --inplace
+`python setup_ID_DAW.py build_ext --inplace`
 
 Note this is for python 2.7 . You may need to specify a specific compiler flag as well (e.g. CC=g++).
 
